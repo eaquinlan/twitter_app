@@ -56,5 +56,3 @@ class TweetsController < ApplicationController
     params.require(:tweet).permit(:message, :user_id)
   end
 end
-
-
